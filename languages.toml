@@ -7,4 +7,8 @@ config = { cargo = { allFeatures = true }}
 
 [[language]]
 name = "go"
+roots = ["go.work", "go.mod"]
 auto-format = true
+formatter = ["gofmt"]
+comment-token = "//"
+language-servers = [ "gopls" ]
