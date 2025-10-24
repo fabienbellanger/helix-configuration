@@ -4,6 +4,7 @@ theme = "ayu_dark"
 bufferline = "multiple"
 text-width = 120
 end-of-line-diagnostics = "hint"
+true-color = true
 
 [editor.soft-wrap]
 enable = true
